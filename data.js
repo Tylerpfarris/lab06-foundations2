@@ -1,4 +1,4 @@
-export const fruits = [
+const fruits = [
     {
         id: 1,
         name: 'Kiwi',
@@ -61,3 +61,6 @@ export const fruits = [
     },
 ];
 
+module.exports = {
+    fruits
+};
