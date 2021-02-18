@@ -9,7 +9,7 @@ it('should respond with all fruits', async done => {
     const response = await request.get('/fruits');
 
     expect(response.status).toBe(200);
-    expect(response.body.message).toEqual(expectation);
+    expect(response.body).toEqual(expectation);
     done();
 });
 
@@ -30,6 +30,6 @@ it('should respond with the fruit that has the matching id', async done => {
     const response = await request.get('/fruit/1');
 
     expect(response.status).toBe(200);
-    expect(response.body.message).toEqual(expectation);
+    expect(response.body).toEqual(expectation);
     done();
 });
