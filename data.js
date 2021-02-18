@@ -6,7 +6,8 @@ const fruits = [
         flavor: `Kiwis are sweet, refreshing fruits with a nice tartness that complements their sweetness. The riper the fruit is, the sweeter and less tart it tends to be.`,
         color: `brown skin with green flesh.`,
         price: 3.00,
-        grownIn:`China, Italy and New Zealand`,
+        grownIn: `China, Italy and New Zealand`,
+        looksWeird: false,
         
     },
     {
@@ -17,6 +18,7 @@ const fruits = [
         color: `green, orange and red skin- with saffron colored flesh.`,
         price: 5.00,
         grownIn: `India, China and Thailand`,
+        looksWeird: false,
 
     },
     {
@@ -27,6 +29,7 @@ const fruits = [
         color: `yellow to green skin- with pale yellow flesh`,
         price: 7.00,
         grownIn: `Malaysia, Philippines and India`,
+        looksWeird: true,
    
     },
     {
@@ -37,6 +40,7 @@ const fruits = [
         color: `purple to yellow kin- with golden flesh and dark seeds.`,
         price: 8.00,
         grownIn: `Malaysia, United States and Kenya`,
+        looksWeird: false,
    
     },
     {
@@ -47,6 +51,7 @@ const fruits = [
         color: `green, yellow, pink to red skin- with yellow, pink to red flesh`,
         price: 8.50,
         grownIn: `India, China and Thailand`,
+        looksWeird: false,
    
     },
     {
@@ -57,6 +62,7 @@ const fruits = [
         color: `red or pink skin, and is covered with small wrinkled protuberances, resembling the strawberry tree fruit. The pulp is white, firm and somewhat hard, carrying a seed inside.`,
         price: 6.00,
         grownIn: `Taiwan, China and Thailand`,
+        looksWeird: true,
    
     },
 ];

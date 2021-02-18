@@ -23,6 +23,7 @@ it('should respond with the fruit that has the matching id', async done => {
             color: `purple to yellow kin- with golden flesh and dark seeds.`,
             price: 8.00,
             grownIn: `Malaysia, United States and Kenya`,
+            looksWeird: false,
     
         }
     };
