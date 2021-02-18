@@ -27,7 +27,7 @@ it('should respond with the fruit that has the matching id', async done => {
         }
     };
 
-    const response = await request.get('/fruit/1');
+    const response = await request.get('/fruit/4');
 
     expect(response.status).toBe(200);
     expect(response.body).toEqual(expectation);
